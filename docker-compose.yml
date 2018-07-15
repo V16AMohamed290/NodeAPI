@@ -17,7 +17,7 @@ services:
     restart: always
 
   mongo:
-    image: mongo:3.4.4
+    image: mongo
     volumes:
       - ./data/mongo:/data/db
     ports:
